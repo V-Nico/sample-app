@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  sample-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-18T10:36:41.561537422+02:00"
+    dependencies:
+    - alias: mysql
+      condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.9
+    - alias: kube-prometheus
+      condition: kube-prometheus.enabled
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 61.3.1
+    description: A Helm chart for sample app
+    digest: acfd1a86bd3ac8be8f92ed08fcabbb4f17c37a94a274b96ab61e65d1348653e0
+    name: sample-app
+    type: application
+    urls:
+    - https://github.com/V-Nico/sample-app/sample-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-18T10:36:41.508005909+02:00"
