@@ -3,7 +3,7 @@ entries:
   sample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-18T10:36:41.561537422+02:00"
+    created: "2024-07-18T10:47:12.375026371+02:00"
     dependencies:
     - alias: mysql
       condition: mysql.enabled
@@ -20,6 +20,6 @@ entries:
     name: sample-app
     type: application
     urls:
-    - https://github.com/V-Nico/sample-app/sample-app-0.1.0.tgz
+    - https://v-nico.github.io/sample-app/sample-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-18T10:36:41.508005909+02:00"
+generated: "2024-07-18T10:47:12.314589643+02:00"
